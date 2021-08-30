@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-dev-120953-authRole",
+      "UnauthRoleArn": "arn:aws:iam::312205642435:role/amplify-amplifyapp-dev-120953-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::312205642435:role/amplify-amplifyapp-dev-120953-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifyapp-dev-120953-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-120953-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-120953",
+      "StackId": "arn:aws:cloudformation:us-east-2:312205642435:stack/amplify-amplifyapp-dev-120953/12368f50-0972-11ec-8728-06b1b8174316",
+      "AmplifyAppId": "dajgi3yuiqcux"
+    }
+  },
+  "auth": {
+    "amplifyappc81adada": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-120953-deployment/amplify-cfn-templates/auth/amplifyappc81adada-cloudformation-template.yml",
+        "logicalId": "authamplifyappc81adada"
+      },
+      "lastPushTimeStamp": "2021-08-30T09:54:59.961Z",
+      "output": {
+        "UserPoolId": "us-east-2_Okf9qEtjT",
+        "AppClientIDWeb": "3hpf09je6rscb5doa9lsept60g",
+        "AppClientID": "73m1ub0dcnshjq9077fvds315c",
+        "IdentityPoolId": "us-east-2:20472b17-af10-4fcf-9c6c-348b615a6e98",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:312205642435:userpool/us-east-2_Okf9qEtjT",
+        "IdentityPoolName": "amplifyappc81adada_identitypool_c81adada__dev",
+        "UserPoolName": "amplifyappc81adada_userpool_c81adada"
+      },
+      "lastPushDirHash": "LCHQmkdxoFgVA9JIUHFy+nVyJkU="
+    }
+  }
+}
